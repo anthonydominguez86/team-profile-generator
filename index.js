@@ -122,7 +122,7 @@ async function run() {
         }
 
         if (employee.title === "Engineer") {
-            return `gitHub: ${employee.github}`;
+            return `gitHub: https://github.com/${employee.github}`;
         }
 
     }
